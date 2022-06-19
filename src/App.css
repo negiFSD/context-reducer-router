@@ -19,3 +19,20 @@
     line-height: 10vh;
     text-align: center;
 }
+
+.home{
+    display: flex;
+}
+.filters{
+    background-color: rgb(234, 213, 185);
+    height: 100vh;
+    flex: 1;
+    
+    
+}
+.productContainer{
+    flex: 4;
+    height: 100vh;
+    background-color: rgba(187, 229, 231, 0.713);
+    
+}

@@ -1,10 +1,10 @@
 import React from 'react'
-
-function Header() {
+import { Link } from "react-router-dom";function Header() {
   return (
     <div className='header'>
-            <h5>Company Name</h5>
-            <input type={'search'}></input>
+            <Link to='/'>Home</Link>
+            <input type={'search'} placeholder= {"type to search"}></input>
+            
             <span> cart</span>
     </div>
   )

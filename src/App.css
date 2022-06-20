@@ -22,17 +22,52 @@
 
 .home{
     display: flex;
+    background-color: rgba(178, 232, 235, 0.713);
 }
 .filters{
-    background-color: rgb(234, 213, 185);
+    background-color: rgb(160, 171, 172);
     height: 100vh;
     flex: 1;
-    
-    
+    display: flex;     
+    flex-direction: column;  
 }
+.filters input{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.filters .ratings{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
 .productContainer{
     flex: 4;
-    height: 100vh;
+    height: 100%;
     background-color: rgba(187, 229, 231, 0.713);
     
+}
+
+.productContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+    padding: 20px;
+}
+.singleProduct{
+    background-color: azure;
+    border: solid black .5px;
+    width: 250px;
+    height: 300px;
+    margin: 10px;
+}
+.singleProduct img{
+    width: 250px;
+    height: 200px;
+}
+.singleProduct p{
+    font-size: 12px;
 }

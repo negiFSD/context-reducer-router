@@ -10,7 +10,8 @@ const productData= jsonData  // fetchin saved data
 
 const initialState = {product:productData,   
                       cart:[]}; 
-
+console.log(initialState.cart);
+                     
 function Context({children}) {
  const[state, dispatch] =  useReducer(cartReducer, initialState)
 

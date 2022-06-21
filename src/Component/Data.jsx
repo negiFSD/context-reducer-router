@@ -9,7 +9,8 @@ const jsonData = [
       image: "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
       rating: { rate: 3.9, count: 120 },
       fastDelivery: false,
-      ratings:4
+      ratings:4,
+      inStock:3
     },
     {
       id: 2,
@@ -22,7 +23,8 @@ const jsonData = [
         "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
       rating: { rate: 4.1, count: 259 },
       fastDelivery: true,
-      ratings:2
+      ratings:2,
+      inStock:0
     },
     {
       id: 3,
@@ -34,7 +36,8 @@ const jsonData = [
       image: "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
       rating: { rate: 4.7, count: 500 },
       fastDelivery: true,
-      ratings:1
+      ratings:1,
+      inStock:2
     },
     {
       id: 4,
@@ -46,7 +49,8 @@ const jsonData = [
       image: "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg",
       rating: { rate: 2.1, count: 430 },
       fastDelivery: true,
-      ratings:5
+      ratings:5,
+      inStock:4
     },
     {
       id: 5,
@@ -59,7 +63,8 @@ const jsonData = [
       image: "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg",
       rating: { rate: 4.6, count: 400 },
       fastDelivery: false,
-      ratings:3
+      ratings:3,
+      inStock:5
     },
     {
       id: 6,
@@ -71,7 +76,8 @@ const jsonData = [
       image: "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
       rating: { rate: 3.9, count: 70 },
       fastDelivery: true,
-      ratings:2
+      ratings:2,
+      inStock:0
     },
     {
       id: 7,
@@ -83,7 +89,8 @@ const jsonData = [
       image: "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg",
       rating: { rate: 3, count: 400 },
       fastDelivery: true,
-      ratings:5
+      ratings:5,
+      inStock:3
     },
     {
       id: 8,
@@ -95,7 +102,8 @@ const jsonData = [
       image: "https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg",
       rating: { rate: 1.9, count: 100 },
       fastDelivery: false,
-      ratings:5
+      ratings:5,
+      inStock:4
     },
     {
       id: 9,
@@ -107,7 +115,8 @@ const jsonData = [
       image: "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg",
       rating: { rate: 3.3, count: 203 },
       fastDelivery: true,
-      ratings:1
+      ratings:1,
+      inStock:5
     },
     {
       id: 10,
@@ -119,7 +128,8 @@ const jsonData = [
       image: "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg",
       rating: { rate: 2.9, count: 470 },
       fastDelivery: false,
-      ratings:2
+      ratings:2,
+      inStock:3
     },
     {
       id: 11,
@@ -132,7 +142,8 @@ const jsonData = [
       image: "https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_.jpg",
       rating: { rate: 4.8, count: 319 },
       fastDelivery: true,
-      ratings:2
+      ratings:2,
+      inStock:0
     },
     {
       id: 12,
@@ -145,7 +156,8 @@ const jsonData = [
       image: "https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_.jpg",
       rating: { rate: 4.8, count: 400 },
       fastDelivery: false,
-      ratings:3
+      ratings:3,
+      inStock:4
     },
     {
       id: 13,
@@ -157,7 +169,8 @@ const jsonData = [
       image: "https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_.jpg",
       rating: { rate: 2.9, count: 250 },
       fastDelivery: true,
-      ratings:3
+      ratings:3,
+      inStock:2
     },
     {
       id: 14,
@@ -170,7 +183,8 @@ const jsonData = [
       image: "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg",
       rating: { rate: 2.2, count: 140 },
       fastDelivery: false,
-      ratings:4
+      ratings:4,
+      inStock:5
     },
     {
       id: 15,
@@ -182,7 +196,8 @@ const jsonData = [
       image: "https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg",
       rating: { rate: 2.6, count: 235 },
       fastDelivery: true,
-      ratings:4
+      ratings:4,
+      inStock:3
     },
     {
       id: 16,
@@ -195,7 +210,8 @@ const jsonData = [
       image: "https://fakestoreapi.com/img/81XH0e8fefL._AC_UY879_.jpg",
       rating: { rate: 2.9, count: 340 },
       fastDelivery: false,
-      ratings:5
+      ratings:5,
+      inStock:0
     },
     {
       id: 17,
@@ -207,7 +223,8 @@ const jsonData = [
       image: "https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2.jpg",
       rating: { rate: 3.8, count: 679 },
       fastDelivery: true,
-      ratings:5
+      ratings:5,
+      inStock:4
     },
     {
       id: 18,
@@ -219,7 +236,8 @@ const jsonData = [
       image: "https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_.jpg",
       rating: { rate: 4.7, count: 130 },
       fastDelivery: false,
-      ratings:4
+      ratings:4,
+      inStock:5
     },
     {
       id: 19,
@@ -231,7 +249,8 @@ const jsonData = [
       image: "https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg",
       rating: { rate: 4.5, count: 146 },
       fastDelivery: false,
-      ratings:3
+      ratings:3,
+      inStock:1
     },
     {
       id: 20,
@@ -243,7 +262,8 @@ const jsonData = [
       image: "https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_.jpg",
       rating: { rate: 3.6, count: 145 },
       fastDelivery: true,
-      ratings:2
+      ratings:2,
+      inStock:4
     },
   ];
   

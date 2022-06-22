@@ -10,6 +10,7 @@
     display: flex;
     justify-content: space-around ;
     align-items: center;
+    position: fixed;
 }
 
 .header span{   
@@ -23,6 +24,7 @@
 .home{
     display: flex;
     background-color: rgba(178, 232, 235, 0.713);
+    
 }
 .filters{
     background-color: rgb(160, 171, 172);
@@ -30,6 +32,8 @@
     flex: 1;
     display: flex;     
     flex-direction: column;  
+    position: fixed;
+    top: 65px;
 }
 .filters input{
     margin-top: 20px;
@@ -46,7 +50,7 @@
     flex: 4;
     height: 100%;
     background-color: rgba(187, 229, 231, 0.713);
-    
+    margin-left: 200px;
 }
 
 .productContainer{
@@ -54,7 +58,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    
+    margin-top: 50px;
     padding: 20px;
 }
 .singleProduct{

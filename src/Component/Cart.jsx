@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from "react";
 import { CartState } from "./Context/Context";
-// import SingleProduct from "./SingleProduct";
 import Rating from "./Rating";
 import { AiFillDelete } from "react-icons/ai";
 
-//for conditional select value code: 58.36
 
 function Cart() {
   const { state: { cart }, dispatch  } = CartState();
+
+  // console.log(cart);
 
 
   const [total, setTotal]= useState() // this for state total
@@ -23,7 +23,7 @@ function Cart() {
     <div className="cartPage">
 
       <div className="cartItems">
-  {/*--------------------- we are printing all the cart items except those whore 0 in stock------------------------ */}
+  {/*--------------------- we are printing all the cart items except those who are 0 in stock------------------------ */}
       {cart.map((e) => (
         e.inStock? ( <div className="cartContainer" key={e.id}>
         <img src={e.image} alt="df" />
@@ -33,15 +33,15 @@ function Cart() {
 
 {/* --------------------- Below code is for number of options in select showing as item in the stock -------------------------    */}
      
-      <select id="qty" onChange={(e)=>dispatch({
+      <select id='qty' onChange={(c)=>dispatch({
         type:'changeQuantity',
-        payload: {id:e.id, qty:e.target.value}
+        payload: {id:e.id, qty:c.target.value,}
       })} name="qty" >
         {(() => {
       const options = [];
 
       for (let i = 1; i < e.inStock; i++) {
-        options.push( <option value={i}>{console.log(e.inStock)} {i}</option>)
+        options.push( <option key={i} value={i}> {i}</option>)
       }
 
       return options;
